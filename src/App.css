@@ -1,0 +1,45 @@
+.userContainer {
+  position: relative;
+  background: #fff;
+  -webkit-box-shadow: 0 1px 2px 0 rgba(34, 36, 38, .15);
+  box-shadow: 0 1px 2px 0 rgba(34, 36, 38, .15);
+  margin: 1rem 0;
+  padding: 1em 1em;
+  border-radius: .28571429rem;
+  border: 1px solid rgba(34, 36, 38, .15);
+}
+
+.form {
+  position: relative;
+  max-width: 100%;
+}
+
+body {
+  cursor: pointer;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, .25);
+
+  transition: color .2s ease;
+  font-size: 14px;
+  line-height: 1.4285em;
+}
+
+.photoInfoContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  padding: 0;
+}
+
+.usersList {
+  width: 31.25% !important;
+  margin-top: 0;
+  margin-bottom: 0;
+  position: relative;
+  display: inline-block;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  vertical-align: top;
+  font-size: 14px;
+  line-height: 1.4285em;
+}
